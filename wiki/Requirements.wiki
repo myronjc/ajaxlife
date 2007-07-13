@@ -1,0 +1,17 @@
+#summary What one needs to build/run AjaxLife
+
+= Server Dependencies =
+
+To use !AjaxLife you must include the standard .NET System and System.Web assemblies. Furthermore, you must also include:
+  * [http://www.codeproject.com/csharp/minihttpd.asp MiniHttpd] - small web-server library
+  * [http://www.newtonsoft.com/products/json/ Newtonsoft Json.NET] - JSON encoding/decoding
+  * [http://libsecondlife.org libsecondlife] - Library for communicating with SL.
+
+= Client Dependencies =
+
+There is a small requirement for PHP and GD for the sim down overlays - see images/simdownoverlay.php. This is mostly because I could be bothered to make multiple sizes of translucent red image.
+
+Everything the client needs is included with it. Note, however, that it expects to find itself in /ajaxlife/, on the same domain/port as the server. Change the STATIC_ROOT constant in !AjaxLife.!AjaxLife (Main.cs) to point it elsewhere. Since the !AjaxLife server is not set up to serve the static content, you'll probably want to do this.
+
+
+
