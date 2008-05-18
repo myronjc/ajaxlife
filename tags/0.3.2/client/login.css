@@ -1,0 +1,32 @@
+#loginstuff td {
+	padding-right: 20px;
+}
+
+body {
+	padding-top: 5px;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	background-color: black;
+	color: #fefefe;
+}
+
+#advanced {
+	top: 5px;
+	position: absolute;
+}
+
+body.ltr #advanced {
+	right: 5px;
+}
+
+body.rtl #advanced {
+	left: 5px;
+}
+
+#advanced td {
+	padding-left: 10px;
+	text-align: center;
+}
+
+#loginstuff {
+	padding-left: 20px;
+}
