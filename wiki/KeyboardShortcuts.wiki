@@ -1,4 +1,4 @@
-# Keyboard shortcuts supported by the AjaxLife client
+#summary Keyboard shortcuts supported by the AjaxLife client
 = Shortcuts =
 || *Shortcut* || *Function* ||
 || Ctrl-F || Toggles the Search window ||
